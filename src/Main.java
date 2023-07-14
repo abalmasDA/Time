@@ -23,14 +23,7 @@ public class Main {
         int minutes = nowTime.getMinute() - localDateTime.getMinute();
         int seconds = nowTime.getSecond() - localDateTime.getSecond();
 
-        if (seconds < 0) {
-            minutes--;
-            seconds += 60;
-        }
-        if (minutes < 0) {
-            hours--;
-            minutes += 60;
-        }
+
         System.out.println(period.getYears() + " years, " + period.getMonths() + " months, " + period.getDays() + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds");
     }
 
