@@ -9,7 +9,7 @@ import java.time.*;
 
 public class Main {
     public static void main(String[] args) {
-        LocalDate dateOfbirthday = LocalDate.of(1997, 8, 22);
+        LocalDate dateOfbirthday = LocalDate.of(1997, 8, 20);
         calculateTime(dateOfbirthday);
 
     }
